@@ -5,10 +5,16 @@
     grid-auto-flow: row;
     align-items: center;
     justify-items: center;
-    background-color: rgb(231, 240, 237);}
+    background-color: aquamarine;
+}
+head {
+    text-align: center;
+    font-size: larger;
+    font-style: initial;
+}
     
 h1 {
-    text-align: center;
+    text-align: start;
     text-shadow: 2px;
     font-size: larger;
     font-style: initial;
@@ -23,5 +29,10 @@ img {
 
 #section {
     display: grid;
+}
 
+ 
+@media screen and (max-width:480px){
+    div {
+        background-color: blue;}
 }
